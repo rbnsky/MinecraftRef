@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#M#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:honeycomb"
+        },
+        "M": {
+            "item": "minecraft:magma_block"
+        }
+    },
+    "result": {
+        "id": "minecraft:ochre_froglight",
+        "count": 1
+    }
+}

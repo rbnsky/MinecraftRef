@@ -1,0 +1,3 @@
+execute at @e[type=minecraft:trident,distance=..45] unless entity @n[distance=0,nbt={Motion:[0.0,0.0,0.0]}] run particle minecraft:soul_fire_flame ~ ~ ~ 0.3 0.3 0.3 0.03 5 normal
+execute at @e[type=minecraft:trident,distance=..45] unless entity @n[distance=0,nbt={Motion:[0.0,0.0,0.0]}] run playsound minecraft:block.amethyst_block.break master @a ~ ~ ~ 1 0.5
+execute at @e[type=minecraft:trident,distance=..45] unless entity @n[distance=0,nbt={Motion:[0.0,0.0,0.0]}] run data modify entity @n Motion set value [0d,-1d,0d]

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#E#",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:budding_amethyst"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        }
+    },
+    "result": {
+        "id": "minecraft:shulker_shell",
+        "components":{
+      "custom_model_data":1,
+      "custom_name":"[{'text':'Amethyst Shulker Shell','italic':false,'color':white}]"
+    }
+    }
+}

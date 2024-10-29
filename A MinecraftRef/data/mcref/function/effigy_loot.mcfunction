@@ -1,0 +1,3 @@
+execute at @e[tag=effigy_loot,type=marker,sort=random,] run clone ~ ~ ~ ~ ~ ~ 399 86 -11
+execute at @n[tag=effigy_pond,type=marker] run execute at @n[distance=..2.5,type=item,nbt={Item:{id:"minecraft:player_head",components:{"minecraft:custom_data":{super_emerald:true}}}}] run function mcref:effigy_emerald_particle
+execute at @n[tag=effigy_chest,type=marker] run function mcref:effigy_chest_particle
